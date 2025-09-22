@@ -1,0 +1,20 @@
+.descripcion {
+    width: 80%;
+    margin: 5% auto;
+    margin-top: 2%;
+}
+.deslizable-automatico {
+    margin-bottom: 5%;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    display: block;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(113, 113, 113);
+}
+::-webkit-scrollbar-track {
+    
+    background-color: rgb(185, 185, 185);
+}

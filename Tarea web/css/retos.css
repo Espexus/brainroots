@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* seccion principal  */
+.main {
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+    justify-content: space-around;
+    height: 60vh;
+    margin-top: 4%;
+}
+.seccionFlex {
+    display: flex;
+}
+
+/* flex de los ejercicios  */
+.flexColumn {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.boton-ejercicio {
+    width: 40%;
+    padding: 3% 0;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(250, 75, 75);
+    border: 1px solid black;
+    color: white;
+    box-shadow: 2px 2px 3px black;
+}
+.boton-ejercicio:hover {
+    cursor: pointer;
+}
+
+/* estilos de la caja  */
+.cajaEjercicio {
+    background-color: white;
+    margin: 1% auto;
+    background-color: rgb(194, 194, 194);
+    width: 40%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+#ejercicio-seleccionado {
+    font-size: 2em;
+    margin-bottom: 10%;
+}
+.caja-cantidad {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 12%;
+}
+#cantidad {
+    background-color: black;
+    background-color: rgb(113, 113, 113);
+    color: white;
+    border: none;
+    flex: 0 0 20%;
+    width: 20%;
+    padding-left: 4%;
+    text-align: right;
+    padding-right: 2%;
+}
+.boton {
+    width: 20%;
+    display: block;
+    padding: 2%;
+    margin: 0 auto;
+}
+.boton:hover {
+    cursor: pointer;
+}
+
+/* quitar los botones del input  */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (max-width: 480px) {
+    .main {
+        flex-direction: column;
+    }
+    .flexColumn {
+        gap: 10px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    .cajaEjercicio {
+        width: 80%;
+    }
+    .boton-ejercicio {
+        width: 70%;
+    }
+}
+

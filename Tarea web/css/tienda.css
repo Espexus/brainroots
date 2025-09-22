@@ -1,0 +1,66 @@
+h1 {
+    font-size: 2.5em;
+}
+
+/* saldo  */
+.contenedor-precio {
+    background-color: yellow;
+    width: 20%;
+    padding: 1.5%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+.saldo {
+    font-weight: 100;
+    margin-right: 5%;
+    font-family: monospace;
+}
+
+/* ahoras las tarjetas  */
+.tarjeta-tienda {
+    width: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 2%;
+    margin: 1%;
+    background-color: antiquewhite;
+}
+.caja-tienda {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* contenido de las tarjetas  */
+.imagen-tarjeta-tienda, .boton-compra, .nombre-carta {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.imagen-tarjeta-tienda {
+    width: 55%;
+    margin-bottom: 5%;
+}
+.nombre-carta {
+    font-size: 1.5 em;
+    font-family: monospace;
+    margin-bottom: 25%;
+}
+.boton-compra {
+    border: none;
+    background-color: rgb(255, 55, 0);
+    border-radius: 40px;
+    width: 50%;
+    color: white;
+    padding: 3%;
+}
+
+@media (max-width: 480px) {
+  .contenedor-precio {
+    width: 35%;
+    font-size: 1.5em;
+  }
+
+}
